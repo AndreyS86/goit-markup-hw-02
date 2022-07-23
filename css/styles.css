@@ -2,6 +2,9 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+.header {
+    background-color: #ECECEC;
+}
 
 .hero {
 background: #2F303A;
@@ -71,3 +74,68 @@ letter-spacing: 0.06em;
 color: #FFFFFF;
 background-color: #2196F3;
 }
+
+/* -------------peculiarities-------------- */
+
+.peculiarities-title {
+font-weight: 700;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+}
+
+.peculiarities-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #757575;;
+ 
+}
+/* -------------ABOUT-------------- */
+
+.about-title {
+font-weight: 700;
+font-size: 36px;
+line-height: 1.17;
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
+}
+
+
+/* -------------SPECIALISTS-------------- */
+
+.specialists {
+background-color: #E5E5E5;;
+}
+
+.specialists-title {
+font-weight: 700;
+font-size: 36px;
+line-height: 1.16;
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
+}
+
+.specialists-item-title {
+font-weight: 500;
+font-size: 16px;
+line-height: 1.19px;
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
+}
+
+.specialists-item-profession {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.19px;
+text-align: center;
+letter-spacing: 0.03em;
+color: #757575;
+}
+
+
