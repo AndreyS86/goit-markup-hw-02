@@ -1,14 +1,13 @@
 body {
 font-family: 'Roboto', sans-serif;
+color: #212121;
 }
 
 :root {
---main-title-color: #212121
+--main-title-color: #212121;
+--background-color: #FFFFFF
 }
 
-.header {
-background-color: #FFFFFF;;
-}
 
 .hero {
 background-color: #2F303A;
@@ -34,7 +33,23 @@ list-style: none;
 /* -------------HEADER-------------- */
 
 .header-logo{
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #2196F3;
+}
 
+.header-logo-span {
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+color: #000000;
 }
 
 .header-link,
@@ -45,11 +60,15 @@ line-height:1.14;
 letter-spacing: 0.02em;
 color:  var(--main-title-color);
 }
-
+ 
 .header-link:hover,
 .header-link:focus {
 color: #2196F3;
 }
+
+/* .header-link:active {
+  color: #2196F3;
+} */
 
 /* .header-secondary-link {
 font-weight: 500;
@@ -168,7 +187,24 @@ color: #757575;
 
 /* -------------FOOTER-------------- */
 
-.footer-logo {
+.footer-logo{
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #2196F3;
+}
+
+.footer-logo-span {
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+color: #000000;
 }
 
 .footer-adress-link {
@@ -180,12 +216,17 @@ color: #FFFFFF;
 }
 
 .footer-link,
-.footer-tel {
-font-weight: 400;
+.footer-tel{
+font-weight: 500;
 font-size: 14px;
-line-height: 1.71;
-letter-spacing: 0.03em;
-color:rgba(255, 255, 255, 0.6
+line-height:1.14;
+letter-spacing: 0.02em;
+color:  rgba(255, 255, 255, 0.6);
+}
+
+.footer-adress-link:hover,
+.footer-adress-link:focus {
+color: #2196F3;
 }
 
 /* ----------------WORKS--------------- */
@@ -213,10 +254,10 @@ letter-spacing: 0.03em;
 color: var(--main-title-color);
 }
 
-/* .works-btn:hover,
+.works-btn:hover,
 .works-btn:focus {
 color: #2196F3;
-} */
+}
 
 .works-item-title {
 font-weight: 700;
