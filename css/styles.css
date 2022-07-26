@@ -73,7 +73,7 @@ color: var(--link-btn-color);
 color: var(--link-btn-color);
 }
 
-.header-link :active {
+.active {
   color: var(--link-btn-color);
 }
 
